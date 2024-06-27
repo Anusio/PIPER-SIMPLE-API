@@ -8,6 +8,29 @@ It is a simple project to create a simple API interfaze to generate audio with A
 
  - Unfortunely piper does not work on windows properly, so use WSL.
 
+### Run:
+Build:
+
+    docker build -t piperapi .
+
+Using gpu:
+
+    docker run -p 5501:5501 --gpus all --rm -it piperapi
+
+Not using gpu:
+
+    docker run -p 5501:5501 --rm -it piperapi
+
+To access localy:
+    
+    http://127.0.0.1:5501/docs
+
+Documentation:
+
+    http://127.0.0.1:5501/redocdoc
+
+![swagger](imgs/redoc.png)
+
 ### TODO
 
  - [ ] Add endpoint to train a custom voice
