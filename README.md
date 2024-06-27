@@ -27,7 +27,7 @@ To access localy:
 
 Documentation:
 
-    http://127.0.0.1:5501/redocdoc
+    http://127.0.0.1:5501/redoc
 
 ![swagger](imgs/redoc.png)
 
