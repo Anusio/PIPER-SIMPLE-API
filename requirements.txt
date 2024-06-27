@@ -5,3 +5,4 @@ pydantic_settings==2.3.4
 pyyaml==6.0.1
 requests==2.31.0
 uvicorn==0.29.0
+numpy==1.26.*
