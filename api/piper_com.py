@@ -152,7 +152,7 @@ class PiperOffline(ABC):
                 # Fix a bug in piper to long texts
                 log.debug("|Retrying|")
                 voice = PiperVoice.load(
-                    model_path=self.speaker,
+                    model_path=os.path.join(self.speaker_paths, self.speaker),
                     config_path=None,
                     use_cuda=config.piper_gpu
                 )
