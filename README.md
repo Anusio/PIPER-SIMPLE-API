@@ -20,11 +20,11 @@ Not using gpu:
 
     docker run -p 5501:5501 --rm -it piperapi
 
-Or use docker compose, baixe o docker-compose.yaml do projeto:
+Or use docker compose, download docker-compose.yaml from the project:
 
     curl -O https://github.com/Anusio/PIPER-SIMPLE-API/blob/main/docker-compose.yml
 
-Rode: 
+Run: 
 
     docker compose up -d
 
