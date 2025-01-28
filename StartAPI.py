@@ -4,6 +4,7 @@ import traceback
 from fastapi import FastAPI
 from fastapi import HTTPException, status
 from fastapi.responses import StreamingResponse
+from fastapi.middleware.cors import CORSMiddleware
 
 from api import doc_speech
 from api.piper_voices import PiperVoicesToDownload, voices_map
